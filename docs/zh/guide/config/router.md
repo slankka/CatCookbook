@@ -10,8 +10,7 @@ title: 路由配置
 
 ### 配置入口
 
-[http:///localhost:8080/s/config?op=routerConfigUpdate
-](http:///localhost:8080/s/config?op=routerConfigUpdate)
+[http:///localhost:8080/s/config?op=routerConfigUpdate](http:///localhost:8080/s/config?op=routerConfigUpdate)
 
 ### 配置示例说明
 
@@ -19,11 +18,11 @@ title: 路由配置
 
 1. CAT 集群信息
 
-![](resource/ch2-config/server_group.jpg)
+![](https://raw.githubusercontent.com/wiki/dianping/cat/resource/ch2-config/server_group.jpg)
 
 2. 路由配置示例
 
-```xml
+``` xml
 <?xml version="1.0" encoding="utf-8"?>
 <router-config backup-server="10.8.101.1" backup-server-port="2280" backup-server-http-port="8080">
     <!-- sh_group1 -->
@@ -227,7 +226,7 @@ server-group : CAT 集群按地域、机房等策略划分，根据不同场景�
 
 上述路由配置示例中应用 service-1 配置如下：
 
-```xml
+``` xml
 <domain id="service-1">
     <group id="default">
         <server id="10.8.101.1" port="2280" weight="1.0"/>
