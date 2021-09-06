@@ -1,0 +1,18 @@
+{
+    "frontMatter.content.folders": [
+        {
+            "title": "docs",
+            "fsPath": "c:\\Users\\Adrian\\cat-cookbook\\docs",
+            "paths": [
+                "c:\\Users\\Adrian\\cat-cookbook\\docs"
+            ]
+        },
+        {
+            "title": "docs",
+            "fsPath": "c:\\research\\docs",
+            "paths": [
+                "c:\\research\\docs"
+            ]
+        }
+    ]
+}
