@@ -18,7 +18,104 @@ title: 路由配置
 
 1. CAT 集群信息
 
-![](https://raw.githubusercontent.com/wiki/dianping/cat/resources/ch2-config/server_group.jpg)
+<table style="width:100%">
+<tr>
+    <th>地域</th><th>机房分组</th><th>机器列表</th></td>  
+</tr>
+
+<tr>
+    <td rowspan="10" style="border:1px solid #ccc;">
+    上海机房 <br> ShangHai 
+    </td>
+    <td rowspan="5" style="border:1px solid #ccc;">
+    sh_group1 
+    </td>
+    <td>
+    10.8.101.1
+    </td>
+</tr>
+<tr>
+    <td>10.8.101.2</td>
+</tr>
+<tr>
+    <td>10.8.101.3</td>
+</tr>
+<tr>
+    <td>10.8.101.4</td>
+</tr>
+<tr>
+    <td>10.8.101.5</td>
+</tr>
+
+<tr>
+    <td rowspan="5" style="border:1px solid #ccc;">
+    sh_group1 
+    </td>
+    <td>
+        10.9.101.1
+    </td>
+</tr>
+<tr>
+    <td>10.9.101.2</td>
+</tr>
+<tr>
+    <td>10.9.101.3</td>
+</tr>
+<tr>
+    <td>10.9.101.4</td>
+</tr>
+<tr>
+    <td>10.9.101.5</td>
+</tr>
+
+<tr>
+    <td rowspan="10" style="border:1px solid #ccc;">
+    北京机房 <br> Beijing 
+    </td>
+    <td rowspan="5" style="border:1px solid #ccc;">
+    bg_group1 
+    </td>
+    <td>
+    10.2.170.1
+    </td>
+</tr>
+<tr>
+    <td>10.2.170.2</td>
+</tr>
+<tr>
+    <td>10.2.170.3</td>
+</tr>
+<tr>
+    <td>10.2.170.4</td>
+</tr>
+<tr>
+    <td>10.2.170.5</td>
+</tr>
+
+<tr>
+    <td rowspan="5" style="border:1px solid #ccc;">
+    bg_group2 
+    </td>
+    <td>
+        10.3.170.1
+    </td>
+</tr>
+<tr>
+    <td>10.3.170.2</td>
+</tr>
+<tr>
+    <td>10.3.170.3</td>
+</tr>
+<tr>
+    <td>10.3.170.4</td>
+</tr>
+<tr>
+    <td>10.3.170.5</td>
+</tr>
+
+</table>
+
+
 
 2. 路由配置示例
 
