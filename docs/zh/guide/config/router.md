@@ -18,7 +18,7 @@ title: 路由配置
 
 1. CAT 集群信息
 
-![](https://raw.githubusercontent.com/wiki/dianping/cat/resource/ch2-config/server_group.jpg)
+![](https://raw.githubusercontent.com/wiki/dianping/cat/resources/ch2-config/server_group.jpg)
 
 2. 路由配置示例
 
