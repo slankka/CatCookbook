@@ -4,7 +4,7 @@ node_js:
 install:
   - npm ci
 script:
-  -
+  - npm install vuepress
   - npm run docs:build
 deploy:
   provider: pages
