@@ -2,6 +2,7 @@ language: node_js
 node_js:
   - lts/*
 install:
+  - "rm -rf node_modules"
   - npm install
 script:
   - npm run docs:build
