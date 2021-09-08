@@ -6,8 +6,10 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
-    lastUpdated: true,
+    lastUpdated: '上次更新',
     repo: 'https://github.com/slankka/CatCookbook',
+    docsDir: 'docs',
+    docsBranch: 'main',
     editLinks: true,
     editLinkText: '帮助我改进页面!',
     nav: [{
