@@ -7,15 +7,15 @@ module.exports = {
   },
   themeConfig: {
     lastUpdated: true,
-    repo: 'https://slankka.github.io/',
-		editLinks: true,
-		editLinkText: 'Help me improve this page!',
+    repo: 'https://github.com/slankka/CatCookbook',
+    editLinks: true,
+    editLinkText: '帮助我改进页面!',
     nav: [{
       text: 'Slankka Guides',
-      ariaLabel: 'Language Menu',
+      ariaLabel: 'Slankka的指南',
       items: [{
         text: 'Home Site',
-        link: 'https://slankka.github.io/'
+        link: 'https://github.com/slankka/CatCookbook'
       },
       {
         text: 'Dianping Cat Cookbook',
