@@ -70,6 +70,15 @@ module.exports = {
         ]
       },
       {
+        title: 'Advanced',   // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          '/zh/guide/tutorial/',
+          '/zh/guide/tutorial/article-01',
+        ]
+      },
+      {
         title: 'Client',
         collapsable: false,
         sidebarDepth: 2,
