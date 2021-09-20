@@ -2,28 +2,14 @@
 title: 服务端部署
 ---
 
-## 编译环境
 
-- maven环境
-::: warning
-CAT 依赖 unidal-framework，这部分依赖不在中央仓库，也不在 unidal.org/nexus (CAT依赖的版本已经删除)
-::: 
-
-请切换到分支 [mvn-repo](https://github.com/dianping/cat/tree/mvn-repo/org/unidal)
-获取如下依赖
-```
-unidal-jdbc
-foundation-service
-unidal-framework
-...
-```
-
+## 编译
 - 编译命令
 ``` bash
 mvn clean package -DskipTests
 ```
 ::: tip
-以上依赖如果配置正确，编译则会通过，否则检查依赖是否正常
+如果没有配置依赖，则请先阅读 [依赖配置](./dependencies.html)
 :::
 
 ## 服务端部署

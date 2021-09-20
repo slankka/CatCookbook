@@ -40,6 +40,7 @@ module.exports = {
         collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
+          '/zh/guide/install/dependencies',
           '/zh/guide/install/installation',
           '/zh/guide/install/docker',
           '/zh/guide/install/storage',
