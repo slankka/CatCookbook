@@ -76,6 +76,7 @@ module.exports = {
         children: [
           '/zh/guide/tutorial/',
           '/zh/guide/tutorial/article-01',
+          '/zh/guide/tutorial/article-02',
         ]
       },
       {
